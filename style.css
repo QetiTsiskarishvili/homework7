@@ -1,0 +1,299 @@
+* {box-sizing: border-box; 
+    margin: 0px;
+}
+* { background-color: #ECF2F8;
+
+}
+.container {
+    width: 1110px;
+    height: 572px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "purplebox purplebox greybox Whitebox"
+    "whitebox blackbox blackbox Whitebox";
+   gap: 30px;
+   }
+   .Purplebox {
+   width: 540px;
+   height: 282px;
+   background-color: #733FC8;
+   border-radius: 8px;
+   padding-left: 32px; padding-right: 32px; padding-top: 26px;
+   grid-area: purplebox;
+   }
+   .profile1 {
+   width: 121px;
+   height: 28px;
+   background-color: transparent;
+   display: flex; gap: 17px; 
+   }
+   .imagine1 {
+   height: 28px;
+   width: 28px;
+   border-radius: 30px;
+   }
+   .names1 {
+   width: 76px;
+   height: 28px;
+   background-color: transparent;}
+   .name1 {
+   font-size: 12px;
+   background-color: transparent;
+   color: white;
+   }
+   .status1 {
+   font-size: 10px;
+   background-color: transparent;
+   color: #CFCFCF;
+   }
+   .Boldtext1 {
+   width: 476px;
+   height: 72px;
+   margin-top: 18px;
+   background-color: transparent;
+   display: flex; gap: 17px;
+   }
+   .boldtext1 {
+   background-color: transparent;
+   color: white;
+   font-size: 20px;
+   }
+   .Normaltext1 {
+   width: 476px;
+   height: 90px;
+   background-color: transparent;
+   }
+   .normaltext1 {
+   background-color: transparent;
+   color: #CFCFCF;
+   font-size: 13px;
+   margin-top: 16px;
+   }
+   .greybox {width: 255px;
+   height: 282px;
+   background-color: #48556A;
+   border-radius: 8px;
+   padding-left: 32px; padding-right: 32px; padding-top: 26px;
+   grid-area: greybox;
+   }
+   .profile2{
+   width: 136px;
+   height: 28px; 
+   background-color: transparent;
+   display: flex; gap: 17px;
+   }
+   .imagine2 {
+   height: 28px;
+   width: 28px;
+   border-radius: 30px;
+   }
+   .names2 { 
+    width: 76px; 
+   height: 28px; background-color: transparent;}
+   .name2 {
+       font-size: 11px; 
+       background-color: transparent; 
+       color: white;
+   }
+   .status2 {
+       font-size: 10px; 
+       background-color: transparent;
+       color: #CFCFCF;
+   }
+   .Boldtext2 {
+       width: 191px; 
+       height: 72px; 
+       margin-top: 18px; 
+       background-color: transparent; 
+       display: flex; gap: 17px;
+   }
+   .boldtext2 {
+       background-color: transparent; 
+       color: white; 
+       font-size: 20px;
+   }
+   .Normaltext2 {
+       width: 191px;
+        height: 90px; 
+        background-color: transparent;
+       }
+   .normaltext2 {
+       background-color: transparent;
+        color: #CFCFCF; 
+        font-size: 13px;
+         margin-top: 16px;
+       }
+   .whitebox {
+   width: 255px;
+   height: 266px;
+   background-color: white;
+   border-radius: 8px; padding-left: 32px; padding-right: 32px; padding-top: 26px;
+   grid-area: whitebox;
+   }
+   .profile3 {
+   width: 121px; height:
+   28px; background-color: transparent;
+   display: flex; gap: 17px;
+   }
+   .imagine3{
+   height: 28px; width: 28px;
+   border-radius: 30px;
+   
+   }
+   .names3{
+   width: 76px; height: 28px;
+   background-color: transparent;
+   }
+   .name3 {
+       font-size: 11px; 
+       background-color: transparent; 
+       color: #48556A;
+   }
+   .status3 {
+       font-size: 10px; 
+       background-color: transparent;
+       color: #48556A;
+   }
+   .Boldtext3 {
+       width: 191px; 
+       height: 72px; 
+       margin-top: 18px; 
+       background-color: transparent; 
+       display: flex; gap: 17px;
+   }
+   .boldtext3 {
+       background-color: transparent;
+        color: #48556A; 
+        font-size: 20px;
+       }
+   .Normaltext3 {
+       width: 191px; 
+       height: 72px; 
+       background-color: transparent;}
+   .normaltext3 {
+       background-color: transparent; 
+       color: #48556A;
+        font-size: 13px; 
+       margin-top: 16px;
+   }
+   .blackbox {
+   width: 540px;
+   height: 266px; 
+   background-color: #19202D;
+   border-radius: 8px; 
+   padding-left: 32px; 
+   padding-right: 32px; padding-top: 26px;
+   grid-area: blackbox;
+   }
+   .profile1 { 
+       width: 121px; 
+       height: 28px; 
+       background-color: transparent;
+        display: flex; gap: 17px; 
+       }
+   .imagine1 {
+       height: 28px; 
+       width: 28px; 
+       border-radius: 30px;}
+   
+   .names1 {
+        width: 76px; 
+        height: 28px; 
+        background-color: transparent;
+       }
+   .name1 {
+       font-size: 12px; 
+       background-color: transparent; color: white;
+   }
+   .status1 {
+       font-size: 10px; 
+       background-color: transparent;
+       color: #CFCFCF;
+   }
+   .Boldtext1 {
+       width: 476px; 
+       height: 72px; 
+       margin-top: 18px; 
+       background-color: transparent; 
+       display: flex; gap: 17px;
+   }
+   .boldtext1 {
+       background-color: transparent; 
+       color: white; 
+       font-size: 20px;
+   }
+   .Normaltext1 {
+       width: 476px; 
+       height: 90px; 
+       background-color: transparent;
+   }
+   .normaltext1 {
+       background-color: transparent; 
+       color: #CFCFCF; font-size: 13px; 
+       margin-top: 16px;}
+   .Whitebox {
+   width: 255px;
+   height: 572px;
+    background-color: white;
+   border-radius: 8px; 
+   padding-left: 32px; padding-right: 32px; padding-top: 26px;
+   grid-area: Whitebox;
+   }
+   .profile3 {
+       width: 121px; 
+       height: 28px; 
+       background-color: transparent;
+        display: flex; gap: 17px;
+        }
+   .imagine3 {
+       height: 28px;
+        width: 28px; 
+       border-radius: 30px;
+   }
+   .names3 { 
+       width: 76px;
+       height: 28px; 
+       background-color: transparent;
+   }
+   .name3 { 
+       font-size: 11px; 
+       background-color: transparent;
+       color: #48556A;
+       }
+   .status3 { 
+       font-size: 10px; 
+       background-color: transparent;
+       color: #48556A;
+   }
+   .Boldtext3 { 
+       width: 191px; 
+       height: 72px; 
+       margin-top: 18px;
+       background-color: transparent; 
+       display: flex; 
+       gap: 17px;
+   }
+   .boldtext3 {
+       background-color: transparent; 
+       color: #48556A; 
+       font-size: 20px;
+   }
+   .Normaltext3 {
+       width: 191px; 
+       height: 378px;
+       background-color: transparent;
+   }
+   .normaltext3 {
+       background-color: transparent; 
+       color: #48556A; 
+       font-size: 13px; 
+       margin-top: 16px;
+   }
+   .CONTAINER {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 165px;
+   }
